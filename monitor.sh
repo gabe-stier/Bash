@@ -14,7 +14,7 @@ function ask(){
 function monitor(){
 ask
 while true; do
-
+echo "------------------------------------------------------------------------"
         case $ans in
                 1) # Is called if the user wants to see the memory of the machine
                         free -m
@@ -37,6 +37,7 @@ while true; do
                 echo "Exiting"
                 break
         fi
+echo "------------------------------------------------------------------------"
 ask
 done
 
