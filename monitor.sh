@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# Author: Gabe S. (gds******@s***.edu)
+# Date: 11/24/19
+# Purpose: To allow the user to monitor systems of the Linux Operating System 
+
 # A function that askes the users what they would like to take a look at. 
 function ask(){
         echo "What would like to monitor?";
